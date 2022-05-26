@@ -10,6 +10,18 @@ initializeApp(firebaseConfig);
 export default initializeAuthentication;
 
 
+/* 
+steps for authentication
+------------------------
+Initial setup
+1. firebase: create project
+2. create web app
+3.get configuration
+4. initilize firebase
+5.enable auth method
+
+
+*/
 
 
 
