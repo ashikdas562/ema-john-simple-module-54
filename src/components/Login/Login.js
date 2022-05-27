@@ -7,11 +7,12 @@ import './Login.css'
 const Login = () => {
     const { singInUsingGoogle} = useAuth();
     const location = useLocation();
+    console.log( 'came from', location.state?.form);
     return (
         <div className='login-form'>
             <div>
                 <h2>Login</h2>
-                  <form action="" onSubmit="">
+                  <form>
                      <input type="email" name="" id="" placeholder='Your email'/>
                      <br />
                      <input type="password" name="" id="" placeholder='Your password'/>
