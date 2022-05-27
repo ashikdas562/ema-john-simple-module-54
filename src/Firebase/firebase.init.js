@@ -31,7 +31,13 @@ step - 3 :
 2.setup sing out method
 3. user state
 4.special observer
-
+5. retrun necessary methods & states from useFirebase
+---------------
+setp - 4:
+1. create a auth context
+2. create context provider 
+3. use auth provider
+4. crerate useAuth Hook
 */
 
 
