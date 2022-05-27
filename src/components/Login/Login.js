@@ -16,7 +16,7 @@ const Login = () => {
                   </form>
                   <p>New to Ema John? <Link to="/register">Create Account</Link></p>
                   <div>      
-                     -------------or---------------
+                     {/* <p>blank</p> */}
                   </div>
 
                   <button className='btn-regular'>Google Sing In</button>
