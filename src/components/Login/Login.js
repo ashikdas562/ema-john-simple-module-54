@@ -12,7 +12,7 @@ const Login = () => {
                      <br />
                      <input type="password" name="" id="" placeholder='Your password'/>
                      <br />
-                     <input type="submit" value="submit" />
+                     <input type="submit" value="Login" />
                   </form>
                   <p>New to Ema John? <Link to="/register">Create Account</Link></p>
                   <div>      
